@@ -2567,7 +2567,7 @@ input, select, textarea {
 	}
 
 		.features li {
-			padding: 4em 4em 2em 6em ;
+			padding: 2em 2em 2em 6em ;
 			display: block;
 			position: relative;
 			text-align: left;
@@ -3821,7 +3821,77 @@ input, select, textarea {
 			}
 
 		}
+/*about*/
 
+	#about> header {
+		padding: 12em 0 10em 0 ;
+		background-image: -moz-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/SYLVIA_0575\ copy-1.jpg");
+		background-image: -webkit-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/SYLVIA_0575\ copy-1.jpg");
+		background-image: -ms-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/SYLVIA_0575\ copy-1.jpg");
+		background-image: linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/SYLVIA_0575\ copy-1.jpg");
+		background-attachment: fixed;
+		background-position: center center;
+		background-repeat: no-repeat;
+		background-size: cover;
+		text-align: center;
+	}
+
+	#main > header h2 {
+		font-size: 1.75em;
+		margin: 0 0 0.5em 0;
+	}
+
+	#about > header p {
+		color: inherit;
+		letter-spacing: 0.225em;
+		text-transform: uppercase;
+		top: 0;
+	}
+
+		#about > header p a {
+			color: inherit;
+		}
+
+	@media screen and (max-width: 1680px) {
+
+		#about > header {
+			padding: 10em 0 8em 0 ;
+		}
+
+	}
+
+	@media screen and (max-width: 1280px) {
+
+		#about > header {
+			padding: 8em 3em 6em 3em ;
+		}
+
+	}
+
+	@media screen and (max-width: 980px) {
+
+		#about > header {
+			padding: 10em 3em 8em 3em ;
+		}
+
+	}
+
+	@media screen and (max-width: 736px) {
+
+		#about > header {
+			padding: 5em 3em 3em 3em ;
+		}
+
+			#about > header h2 {
+				font-size: 1.25em;
+				margin: 0 0 1em 0;
+			}
+
+	}
+
+body.is-mobile #about > header {
+	background-attachment: scroll;
+}
 /* Main */
 
 	#main > header {
@@ -4009,3 +4079,6 @@ input, select, textarea {
 	body.is-mobile.landing #footer {
 		background-color: #1d242a;
 	}
+
+	/*experience*/
+
